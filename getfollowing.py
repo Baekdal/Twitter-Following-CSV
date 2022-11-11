@@ -1,3 +1,17 @@
+# This file will look up all the people you follow on Twitter, and export them to a CSV file. It will also convert Twitter shortURLs into their real URLs.
+# 
+# No support or explanation provided. Feel free to use as-is.
+# 
+# Needs these to work, and you need to create an App under the Twitter API development platform (https://developer.twitter.com/en/portal/projects-and-apps) to get a bearer ID to request the data.
+# 
+# pip install tweepy
+# pip install requests
+# 
+# Note, the code is not designed to be pretty or efficient. This was just a quick thing I needed.
+# 
+# -------------------------------------------
+
+
 username = input('Username: ')
 bearer = input('Twitter API bearer id (create an app under the Twitter API): ')
 
